@@ -4,7 +4,7 @@ locals {
 
   data_products = {
     "DataPlatformProduct1": {
-        "data_classification": "L1",
+        "data_classification": "L2",
         "contains_pii": false,
         "amplitude": false,
         "emr": {
