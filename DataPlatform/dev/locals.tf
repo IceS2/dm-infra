@@ -3,11 +3,6 @@ locals {
   domain_name = "DataPlatform"
 
   data_products = {
-    "DataPlatformProduct2": {
-        "data_classification": "L2",
-        "contains_pii": true,
-        "amplitude": true
-    },
     "DataPlatformProduct1": {
         "data_classification": "L1",
         "contains_pii": false,
@@ -21,6 +16,11 @@ locals {
                 "Spark"
             ]
         }
+    },
+    "DataPlatformProduct2": {
+        "data_classification": "L1",
+        "contains_pii": true,
+        "amplitude": false
     }
 }
 }
